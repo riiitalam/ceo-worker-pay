@@ -17,6 +17,7 @@ Data Columns:
 - Company Ticker
 - Median worker pay
 - Pay ratio
+
 Data was checked for duplicate row, white spaces and zero or null values. Special characters was removed from the industry column. 
 Also checked ceo_data_pay_merged_r3000 dataset is inclusive of all data from ceo_data_pay_merged_sp500 since Russell 3000 index include SP500 companies. 
 3 row with zero values are found and updated accordingly. Avg worker pay is used to update if median value is not found on reliable salary report sites.
@@ -34,7 +35,12 @@ Link: https://github.com/riiitalam/ceo-worker-pay/commit/fb722f4c347dd0d044657d6
 
 Analyse Data
 
-To analyze bike usage, ride duration is an important factor. A new column 'ride duration' was calculated from ride start time and end time and added to dataset. Top bike stations and top routes were ranked using SQL for analysis. Ride dates are classified into weekend / weekday and added as an additional column for usage comparison. Finalized datasets were imported into Tableau and visualized with various plots. Trends, patterns and relationships were identified and documented in the powerpoint presentation - https://docs.google.com/presentation/d/1eEnF-cGVGcZ82xgQ-yo-QwpkRvO9sdm6fwXs-wqbA-o/edit?usp=sharing
+Finalized datasets were imported into Tableau and visualized with various plots to identify trends, patterns and relationships. 
+Compared and identified the industry that has the highest inequlity in salary between CEOs and workers. 
+Explored relationship between worker pay and CEO pay and highlight their enormous difference in logarithmic scale. 
+Identify top 10 companies that offer highest pay to their CEOs and lowest pay to their workers.
+Pay ratio by industry was also looked at and translated into a unit chart where the number of worker pay is plotted against one CEO's pay. 
+Other executive salary were checked to be also very high in cases where CEOs match their salary closely to their employees' pay.
 
 Share Findings
 
@@ -42,5 +48,5 @@ Result of analysis is presented in the interactive Tableau visualization dashboa
 [https://public.tableau.com/app/profile/rita.lam ](https://public.tableau.com/app/profile/rita.lam/viz/InequalityBetweenExecutiveSalaryWorkerWage/Dashboard1)
 
 Act Phase
-Regulations of executive salary should be implemented 
+Regulations on executive salary should be implemented and workers needs to continue to advocate for fair wages. 
 
