@@ -3,15 +3,24 @@ Inequality in Compensation between CEO and employees among top 3000 companies (R
 Objective
 
 To uncover the disproportionate relationship between CEO Salary and worker pay in top companies by industry clusters and raise awareness of 
+wage inequality for typical employees.
 
 Prepare Data
 
-Datasets used are primary data directly downloaded from the bikeshare company website https://www.divvybikes.com/system-data 12 months of 2022 
+Dataset was downloaded from Kaggle (https://www.kaggle.com/datasets/salimwid/latest-top-3000-companies-ceo-salary-202223)
+Data Souce: The American Federation of Labor and Congress of Industrial Organizations (AFL-CIO)
+Data Columns:
+- Company name
+- CEO name
+- CEO salary
+- Industry
+- Company Ticker
+- Median worker pay
+- Pay ratio
 Datasets were compiled and merged into one single cvs file for data processing. 
 Data cleaning included eliminating duplicate row and white spaces, data points with ride duration <=0, rows with null values in bike start or return location. 
 4 outliers were removed in the long ride length's range after the outlier test. 
 A number of outliers were kept in the data until they could be inspected and invalidated by the company. 
-Data were separated into two datasets (ride duration < 3 hours and ride duration > 3 hours) for more in depth analysis.
 
 Process Data
 
