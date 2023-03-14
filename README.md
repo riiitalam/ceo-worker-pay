@@ -45,7 +45,7 @@ Other executive salary were checked to be also very high in cases where CEOs mat
 Share Findings
 
 Result of analysis is presented in the interactive Tableau visualization dashboard at 
-[https://public.tableau.com/app/profile/rita.lam ](https://public.tableau.com/app/profile/rita.lam/viz/InequalityBetweenExecutiveSalaryWorkerWage/Dashboard1)
+https://public.tableau.com/app/profile/rita.lam/viz/InequalityBetweenExecutiveSalaryWorkerWage/Dashboard1
 
 Act Phase
 Regulations on executive salary should be implemented and workers needs to continue to advocate for fair wages. 
